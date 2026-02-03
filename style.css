@@ -548,3 +548,22 @@ footer {
     justify-content: center;
   }
 }
+/* ===== MOBILE SPACING FIX ===== */
+@media (max-width: 768px) {
+
+  /* Reduce hero bottom space */
+  .hero {
+    padding-bottom: 50px;
+  }
+
+  /* Reduce space before first section (Summary) */
+  section {
+    margin-top: 50px;
+  }
+
+  /* Slightly tighten hero text spacing */
+  .hero-text p {
+    margin-bottom: 15px;
+  }
+}
+
