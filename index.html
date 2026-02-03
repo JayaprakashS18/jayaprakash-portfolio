@@ -1,181 +1,550 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jaya Prakash S | Portfolio</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- ===== MOBILE NAV ===== -->
-<div class="mobile-nav">
-  <div class="nav-header">
-    <span>Menu</span>
-    <button onclick="toggleDrawer()">✕</button>
-  </div>
-  <a href="#projects" onclick="toggleDrawer()">Projects</a>
-  <a href="#internship" onclick="toggleDrawer()">Internship</a>
-  <a href="#skills" onclick="toggleDrawer()">Skills</a>
-  <a href="#contact" onclick="toggleDrawer()">Contact</a>
-</div>
-
-<button class="hamburger" onclick="toggleDrawer()">
-  <i class="fa-solid fa-bars"></i>
-</button>
-
-<!-- ===== HERO ===== -->
-<header class="hero">
-  <div class="hero-content">
-    <img src="Photo.png" alt="Jaya Prakash" class="profile-pic">
-
-    <div class="hero-text">
-      <h1>Jaya Prakash S</h1>
-      <p>Computer Science Student | Full-Stack Development</p>
-    </div>
-  </div>
-</header>
-
-<!-- ===== SUMMARY ===== -->
-<section>
-  <h2>Summary</h2>
-  <p>
-    Computer Science Engineering student with strong logical thinking and problem-solving abilities, 
-    seeking software engineering roles that require analytical reasoning to build reliable, scalable, 
-    and structured solutions. Passionate about applying technical skills to real-world problems and 
-    contributing to high-quality software development.
-  </p>
-
-  <!-- RESUME BUTTON -->
-  <a href="My Resume .pdf" target="_blank" class="cta-btn">
-    <i class="fa-solid fa-file-lines"></i> View Resume
-  </a>
-</section>
-
-<!-- ===== EDUCATION ===== -->
-<section>
-  <h2>Education</h2>
-  <a href="https://ritchennai.org" target="_blank" class="education-link">
-    <div class="education-card">
-      <img src="RIT logo.png" class="edu-logo">
-      <div class="edu-details">
-        <h3>B.E. Computer Science and Engineering</h3>
-        <p class="edu-institution">Rajalakshmi Institute of Technology, Chennai</p>
-        <p class="edu-duration">2023 – 2027</p>
-      </div>
-    </div>
-  </a>
-</section>
-
-<!-- ===== PROJECTS ===== -->
-<section id="projects">
-  <h2>Projects</h2>
-
-  <div class="project">
-    <h3>ADNI: MRI Image Analysis System</h3>
-    <p><strong>Tech:</strong> Python, NumPy, Pandas, TensorFlow</p>
-    <a href="https://github.com/JayaprakashS18/ADNI" target="_blank">View Repository</a>
-  </div>
-
-  <div class="project">
-    <h3>India Travel Route Planner</h3>
-    <p><strong>Tech:</strong> Java, Swing</p>
-    <a href="https://github.com/JayaprakashS18/TravelPlanner" target="_blank">View Repository</a>
-  </div>
-
-  <div class="project">
-    <h3>Champions Trophy Stats App</h3>
-    <p><strong>Tech:</strong> HTML, CSS</p>
-    <a href="https://github.com/JayaprakashS18/Champions_Trophy_2025" target="_blank">View Repository</a>
-  </div>
-</section>
-
-<!-- ===== INTERNSHIP ===== -->
-<section id="internship">
-  <h2>Internship</h2>
-
-  <a href="https://merfantz.com" target="_blank" class="card-link">
-    <div class="project">
-      <h3>Salesforce Intern</h3>
-      <p><strong>Merfantz Technologies Pvt Ltd</strong></p>
-      <p><strong>Tech:</strong> Salesforce, Apex, LWC</p>
-    </div>
-  </a>
-</section>
-
-<!-- ===== SKILLS ===== -->
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Python, Java, C</li>
-    <li>HTML, CSS, JavaScript</li>
-    <li>MySQL, Firebase</li>
-    <li>Machine Learning, CNNs, NLP</li>
-    <li>Git, GitHub, VS Code</li>
-  </ul>
-</section>
-
-<!-- ===== CERTIFICATIONS ===== -->
-<section id="certifications">
-  <h2>Certifications</h2>
-
-  <div class="cert-buttons">
-    <a href="Merfantz_Internship_Certificate.jpg" target="_blank" class="cert-btn">
-      <i class="fa-solid fa-award"></i>
-      Internship Certificate
-    </a>
-
-    <a href="Natural Resources Management.pdf" target="_blank" class="cert-btn">
-      <i class="fa-solid fa-award"></i>
-      NPTEL – Natural Resources Management
-    </a>
-
-    <a href="Skillrack SQL Certificate .png" target="_blank" class="cert-btn">
-      <i class="fa-solid fa-award"></i>
-      Skillrack SQL
-    </a>
-
-    <a href="Skillrack Python Certificate .png" target="_blank" class="cert-btn">
-      <i class="fa-solid fa-award"></i>
-      Skillrack Python
-    </a>
-  </div>
-</section>
-
-
-<!-- ===== CONTACT ===== -->
-<section id="contact">
-  <h2>Contact</h2>
-
-  <div class="contact-buttons">
-    <a href="mailto:jp7217945@gmail.com" class="contact-btn">
-      <i class="fa-solid fa-envelope"></i> Gmail
-    </a>
-    <a href="https://www.linkedin.com/in/jayaprakash-s-509b35293/" target="_blank" class="contact-btn">
-      <i class="fa-brands fa-linkedin"></i> LinkedIn
-    </a>
-    <a href="https://github.com/jayaprakashs18" target="_blank" class="contact-btn">
-      <i class="fa-brands fa-github"></i> GitHub
-    </a>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Jaya Prakash</p>
-</footer>
-
-<script>
-function toggleDrawer() {
-  document.querySelector('.mobile-nav').classList.toggle('open');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-</script>
 
-</body>
-</html>
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top, #0f172a 0%, #020617 60%);
+  color: #e5e7eb;
+  line-height: 1.7;
+}
+
+/* ================= MOBILE DRAWER ================= */
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  font-size: 1.8rem;
+  color: #38bdf8;
+  cursor: pointer;
+  z-index: 2000;
+  display: none;
+}
+
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 260px;
+  height: 100vh;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  transition: right 0.4s ease;
+  z-index: 1500;
+}
+
+.mobile-drawer a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.6rem;
+  color: #38bdf8;
+  cursor: pointer;
+}
+
+#menu-toggle:checked ~ .mobile-drawer {
+  right: 0;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  padding: 80px 20px 100px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.hero-content {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  object-fit: cover;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.hero-text p {
+  margin: 15px 0 30px;
+  font-size: 1.15rem;
+  color: #94a3b8;
+}
+
+/* ===== CTA BUTTON ===== */
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 36px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #020617;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.45);
+  transition: all 0.35s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-4px) scale(1.04);
+  box-shadow: 0 20px 50px rgba(99, 102, 241, 0.7);
+}
+
+/* ================= SECTIONS ================= */
+
+section {
+  max-width: 1000px;
+  margin: 90px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ffffff;
+  position: relative;
+}
+
+section h2::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  display: block;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+section p {
+  font-size: 1.05rem;
+  color: #cbd5f5;
+}
+
+/* ================= EDUCATION ================= */
+
+.education-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(15px);
+  border-radius: 24px;
+  padding: 30px 35px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  transition: all 0.4s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 35px 70px rgba(56, 189, 248, 0.35);
+}
+
+.edu-logo {
+  width: 95px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+}
+
+/* ================= PROJECT / INTERNSHIP ================= */
+
+.project {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(15px);
+  border-radius: 24px;
+  padding: 28px 32px;
+  margin-bottom: 30px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.project::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+}
+
+.project:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 35px 80px rgba(99, 102, 241, 0.5);
+}
+
+/* ================= SKILLS ================= */
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  padding: 14px 22px;
+  margin-bottom: 12px;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* ================= CONTACT BUTTONS ================= */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.contact-grid a {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  padding: 18px;
+  border-radius: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+  transition: all 0.35s ease;
+}
+
+.contact-grid a:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #020617;
+}
+
+.contact-grid i {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  text-align: center;
+  padding: 30px;
+  color: #94a3b8;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .hero-text h1 {
+    font-size: 2.4rem;
+  }
+
+  section h2 {
+    font-size: 1.8rem;
+  }
+
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .cta-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+/* ================= CERTIFICATIONS ================= */
+
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cert-list li a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+  color: #e5e7eb;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.35s ease;
+}
+
+.cert-list li a i {
+  font-size: 1.3rem;
+  color: #38bdf8;
+}
+
+.cert-list li a:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #020617;
+}
+
+.cert-list li a:hover i {
+  color: #020617;
+}
+/* ===== HAMBURGER ===== */
+.hamburger {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  border: none;
+  color: #020617;
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  z-index: 1001;
+  display: none;
+}
+
+/* ===== MOBILE DRAWER ===== */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 75%;
+  height: 100%;
+  background: #020617;
+  padding: 30px;
+  z-index: 1000;
+  transition: right 0.35s ease;
+}
+
+.mobile-nav.open {
+  right: 0;
+}
+
+.mobile-nav .nav-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.mobile-nav a {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+/* ===== CONTACT BUTTONS ===== */
+.contact-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.contact-btn {
+  flex: 1;
+  padding: 14px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #020617;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(99, 102, 241, 0.6);
+}
+
+/* ===== MOBILE ONLY ===== */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+}
+/* ===== CERTIFICATE BUTTONS ===== */
+.cert-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.cert-btn {
+  padding: 16px 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  color: #e5e7eb;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.35s ease;
+}
+
+.cert-btn i {
+  color: #38bdf8;
+  font-size: 1.2rem;
+}
+
+.cert-btn:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #020617;
+}
+
+.cert-btn:hover i {
+  color: #020617;
+}
+/* ===== ENHANCED PROJECT UI ===== */
+
+.project {
+  cursor: pointer;
+}
+
+.project h3 {
+  font-size: 1.55rem;
+  line-height: 1.3;
+}
+
+.project p {
+  font-size: 1.02rem;
+}
+
+.project::after {
+  content: "View Project →";
+  position: absolute;
+  bottom: 18px;
+  right: 28px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #38bdf8;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.project:hover::after {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+/* Accent glow on hover */
+.project:hover {
+  box-shadow:
+    0 35px 80px rgba(99, 102, 241, 0.45),
+    inset 0 0 0 1px rgba(56, 189, 248, 0.25);
+}
+
+/* Mobile refinement */
+@media (max-width: 768px) {
+  .project {
+    padding: 26px 24px;
+  }
+
+  .project::after {
+    display: none; /* cleaner on mobile */
+  }
+}
+/* ===== CONTACT (FIXED ALIGNMENT) ===== */
+.contact-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  max-width: 700px;
+  margin: 30px auto 0;
+}
+
+.contact-btn {
+  padding: 16px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: #020617;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+.contact-btn i {
+  font-size: 1.1rem;
+}
+
+.contact-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 45px rgba(99, 102, 241, 0.6);
+}
+
+/* ===== MOBILE PERFECT ALIGNMENT ===== */
+@media (max-width: 768px) {
+  .contact-buttons {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .contact-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
